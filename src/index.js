@@ -21,7 +21,7 @@ const store = createStore(
 )
 
 
-document.title = 'CI finesser'
+document.title = 'Dashboard'
 ReactDOM.render(
   <Provider store={store}>
   <React.StrictMode>
