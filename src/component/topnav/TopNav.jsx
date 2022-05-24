@@ -20,10 +20,12 @@ const curr_user = {
   image: user_image
 }
 
-const renderNotificationItem = (item, index) => (
-  <div className="notification-item" key={index}>
-    <i className={item.icon}></i>
-    <span>{item.content}</span>
+
+const renderNotificationItem = (item, index) =>(
+  <div className='notification-itm' key={index}>
+  <i className={item.icon}></i>
+  <span>{item.content}</span>
+  
   </div>
 )
 
